@@ -1,0 +1,33 @@
+.subtitulo + *{
+    background-color: yellow;
+    opacity: 0;
+    transition: 1s;
+}
+
+.parrafo {
+    background-color: rebeccapurple;
+   
+}
+
+.subtitulo:hover + .parrafo{
+    opacity: 1;
+}
+
+.subtitulo1 + *{
+    background-color: aqua;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+.parrafo1 {
+    background-color: bisque;
+}
+
+.subtitulo1:hover + .parrafo1{
+    opacity: 1;
+    height: 25px;
+    
+}
+

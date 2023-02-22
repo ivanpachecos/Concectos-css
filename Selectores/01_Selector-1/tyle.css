@@ -1,0 +1,24 @@
+ul .lista {
+    text-decoration: underline;
+}
+
+.todo .lista {
+    color: red;
+}
+
+.dias .lista {
+    list-style: none;
+}
+
+.Listas > .lista {
+    list-style: upper-roman;
+}
+
+.dias > .lista {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Combinador abyasente*/
+

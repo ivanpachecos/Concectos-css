@@ -1,0 +1,11 @@
+[value] {
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+
+}
+
+[value$="cusos.com"] {
+    background-color: aqua;
+}
+
